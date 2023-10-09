@@ -1,0 +1,29 @@
+/* Aplicar un tamaño fijo al círculo */
+.circle-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    /* Esto crea la forma circular */
+    object-fit: cover;
+    padding: 15px;
+    /* Ajustar la imagen al círculo sin distorsionar */
+}
+
+/* Aplicar un borde al círculo */
+.circle-image-with-border {
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #000;
+    /* Cambia #000 al color de borde deseado */
+}
+
+/* Cambiar el tamaño del círculo según tus necesidades */
+.circle-image-large {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
